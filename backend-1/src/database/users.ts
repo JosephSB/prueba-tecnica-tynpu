@@ -1,0 +1,42 @@
+export const USERS_MOCK = [
+  {
+    id: '1f2b3c4d-1111-4444-aaaa-123456789001',
+    name: 'Ana Torres',
+    email: 'ana.torres@example.com',
+    age: 28,
+    role: 'admin',
+    createdAt: new Date('2024-01-10T10:00:00Z'),
+  },
+  {
+    id: '1f2b3c4d-2222-4444-bbbb-123456789002',
+    name: 'Luis García',
+    email: 'luis.garcia@example.com',
+    age: 35,
+    role: 'user',
+    createdAt: new Date('2024-02-14T08:30:00Z'),
+  },
+  {
+    id: '1f2b3c4d-3333-4444-cccc-123456789003',
+    name: 'María López',
+    email: 'maria.lopez@example.com',
+    age: 22,
+    role: 'user',
+    createdAt: new Date('2024-03-20T12:15:00Z'),
+  },
+  {
+    id: '1f2b3c4d-4444-4444-dddd-123456789004',
+    name: 'Carlos Rojas',
+    email: 'carlos.rojas@example.com',
+    age: 40,
+    role: 'moderator',
+    createdAt: new Date('2024-04-05T09:00:00Z'),
+  },
+  {
+    id: '1f2b3c4d-5555-4444-eeee-123456789005',
+    name: 'Elena Castro',
+    email: 'elena.castro@example.com',
+    age: 30,
+    role: 'user',
+    createdAt: new Date('2024-05-10T14:45:00Z'),
+  },
+];
